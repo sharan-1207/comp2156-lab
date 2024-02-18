@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "comp2156 lab exercise",
   "main": "index.js",
-  "homepage": "https://sharan-1207.github.io/comp2156-lab/",                
+  "homepage": "https://sharan-1207.github.io/comp2156-lab/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
