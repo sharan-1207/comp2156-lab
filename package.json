@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "comp2156 lab exercise",
   "main": "index.js",
+  "homepage": "https://sharan-1207.github.io/comp2156-lab/",                
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -11,6 +12,7 @@
     "test": "echo \"Warning: No tests created yet.\"",
     "eject": "react-scripts eject"
   },
+  
   "keywords": [],
   "author": "Sharandeep Singh",
   "license": "ISC",
@@ -23,16 +25,15 @@
     "travis": "^0.1.1",
     "yarn": "^1.13.0"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+  
+  
 }
